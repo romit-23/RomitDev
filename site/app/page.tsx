@@ -170,7 +170,7 @@ function Hero({ still }: { still: boolean }) {
           <a href="#experience">Currently at {profile.current}<ArrowUpRight size={13} aria-hidden="true" /></a>
         </motion.div>
         <h1 className="hero-name" aria-label={profile.name}>
-          <span className="line" aria-hidden="true"><span className="sans"><Letters text="Romit" delay={0.15} still={still} /></span></span>
+          <span className="line" aria-hidden="true"><span className="word"><Letters text="Romit" delay={0.15} still={still} /></span></span>
           <span className="line line-2" aria-hidden="true"><span className="serif"><Letters text="Addagatla" delay={0.35} still={still} /></span><motion.span className="hero-stop" initial={still ? false : { scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.6, ease, delay: 0.95 }} /></span>
         </h1>
         <div className="hero-foot">
