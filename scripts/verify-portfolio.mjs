@@ -40,7 +40,7 @@ try {
   assert.equal(response.status(), 200);
   await page.getByRole('heading', { name: 'Romit Addagatla', level: 1, exact: true }).waitFor();
   await page.waitForTimeout(1500);
-  assert.equal(await page.title(), 'Romit Addagatla — Python AI Engineer');
+  assert.equal(await page.title(), 'Romit Addagatla | AI Engineer');
   assert.equal(await page.locator('.panel').count(), 4);
   assert.equal(await page.locator('.xp-row').count(), 3);
   await page.screenshot({ path: shot('desktop-hero.png') });
