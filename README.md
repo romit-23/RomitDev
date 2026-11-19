@@ -2,8 +2,9 @@
 
 Personal portfolio of **Romit Addagatla**, Python AI Engineer in Mumbai, who builds multi-agent workflows, RAG pipelines, and REST APIs.
 
-GitHub Pages address: https://romit-23.github.io/MyPortfolio/
-(The live address shows whatever was last built and pushed to `main`. This redesign is local until it is committed and pushed.)
+Live site: https://romit-23.github.io/MyPortfolio/
+
+Source lives in [romit-23/RomitDev](https://github.com/romit-23/RomitDev). GitHub Pages project URLs follow the repository name, so the built files are published from `romit-23/MyPortfolio` to keep that address. Run `npm run build` to regenerate `assets/`, `index.html` and `.nojekyll` at the repository root, then commit and push both repositories.
 
 ![Hero: oversized name over an interactive dot field](docs/screenshots/hero.png)
 
